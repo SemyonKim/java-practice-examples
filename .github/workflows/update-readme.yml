@@ -14,8 +14,11 @@ jobs:
         with:
           python-version: '3.x'
       - name: Run update script
-        run: python scripts/update_readme.py
+        id: update
+        run: |
+          python scripts/update_readme.py || echo "no_changes"
       - name: Commit changes
+        if: steps.update.outcome == 'success'
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
