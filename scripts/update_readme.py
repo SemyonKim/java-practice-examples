@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 
 BASE_DIR = "src/main/java"
 README = "README.md"
@@ -34,8 +35,15 @@ def main():
     with open(README, encoding="utf-8") as f:
         content = f.read()
     updated = replace_section(content, new_section)
-    with open(README, "w", encoding="utf-8") as f:
-        f.write(updated)
+
+    if updated != content:
+        with open(README, "w", encoding="utf-8") as f:
+            f.write(updated)
+        print("README updated.")
+        sys.exit(0)
+    else:
+        print("No changes detected.")
+        sys.exit(1)  # exit with non-zero so GitHub Action skips commit
 
 if __name__ == "__main__":
     main()
