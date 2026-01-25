@@ -16,7 +16,7 @@ In the future, I plan to expand with examples from other classic Java books, but
 - [Project Structure](#-project-structure)
 - [Topics & Examples](#-topics--examples)
 - [Requirements](#-requirements)
-- [Build Tool](#-build-tool)
+- [Build Tool](#️build-tool)
 - [Notes](#-notes)
 - [Documentation](#-documentation)
 - [Roadmap](#-roadmap)
@@ -80,7 +80,7 @@ Here is a growing index of examples with direct links:
 - IDE: IntelliJ IDEA (recommended)
 
 ---
-
+<a name="build-tool"></a>
 ## ⚙️ Build Tool
 
 This project uses **Gradle** for build and dependency management.
