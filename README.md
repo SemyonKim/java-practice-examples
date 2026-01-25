@@ -24,14 +24,11 @@ To compile and run an example:
 ```bash
 ./gradlew build
 ./gradlew run --args="chapter01.HelloWorld"
+```
+(Replace `chapter01.HelloWorld` with the fully qualified class name of the example you want to run.)
 
-(Replace chapter01.HelloWorld with the fully qualified class name of the example you want to run.)
-
-📖 Notes
-Each example may include:
-
-Original code inspired by the book
-
-My commentary and improvements
-
-Edge cases or compiler error demos
+## 📖 Notes
+### Each example may include:
+- Original code inspired by the book
+- My commentary and improvements
+- Edge cases or compiler error demos
