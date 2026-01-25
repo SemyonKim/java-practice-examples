@@ -16,7 +16,7 @@ In the future, I plan to expand with examples from other classic Java books, but
 - [Project Structure](#-project-structure)
 - [Topics & Examples](#-topics--examples)
 - [Requirements](#-requirements)
-- [Build Tool](#-build-tool)
+- [Build Tool](#build-tool)
 - [Notes](#-notes)
 - [Documentation](#-documentation)
 - [Roadmap](#-roadmap)
