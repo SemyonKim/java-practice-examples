@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/github/license/SemyonKim/java-practice-examples) 
 ![JDK](https://img.shields.io/badge/JDK-25-orange)
 ![Gradle](https://img.shields.io/badge/Gradle-9.2-02303A.svg?logo=gradle)
+![Tagline](https://img.shields.io/badge/Hands--on_Java_practice_from_basics_to_advanced-1E90FF?style=for-the-badge)
 
 This repository contains my practical implementations of examples from *On Java 8* by Bruce Eckel.  
 In the future, I plan to expand with examples from other classic Java books, but *On Java 8* is the starting point.
