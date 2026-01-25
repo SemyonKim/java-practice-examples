@@ -77,6 +77,7 @@ Here is a growing index of examples with direct links:
 - JDK 25 (or whichever version you’re using)
 - Gradle 9.2 (wrapper included in repo)
 - Tested on Windows 11
+- IDE: IntelliJ IDEA (recommended)
 
 ---
 
