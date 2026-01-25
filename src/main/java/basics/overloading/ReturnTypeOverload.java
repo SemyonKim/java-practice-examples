@@ -1,33 +1,51 @@
 package basics.overloading;
 
 /**
- * Demonstrates that Java does NOT allow overloading
- * methods based only on return type.
+ * Demonstrates that Java does NOT allow method overloading
+ * based only on return type.
  * <p>
  * Both methods below have the same name and parameter list,
- * but different return types. The compiler rejects this with
- * "method f() is already defined".
+ * but different return types. The compiler rejects this with:
  * <p>
- * Reason: If you call f() and ignore the return value,
- * the compiler cannot decide which version to use.
- * Therefore, Java requires overloaded methods to differ
- * in their argument lists, not just return type.
+ *   error: method f() is already defined in class ReturnTypeOverload
+ * <p>
+ * Reason:
+ * - Overloading in Java must differ by parameter list, not return type.
+ * - If you call f() and ignore the return value, the compiler cannot
+ *   decide which version to use.
+ * - Therefore, this code will not compile unless one of the methods
+ *   is commented out.
  */
 public class ReturnTypeOverload {
-    // First method: returns nothing
-    void f() {
-        System.out.println("Called f() with void return");
+
+    // ❌ Invalid: two methods with same name and parameters but different return types
+    // void f() {
+    //     System.out.println("Called f() with void return");
+    // }
+
+    // int f() {
+    //     return 1;
+    // }
+
+    // ✅ Correct approach: give them different names or parameter lists
+    void fVoid() {
+        System.out.println("Called fVoid()");
     }
 
-    // Second method: returns int
-    int f() {
+    int fInt() {
         return 1;
     }
 
     public static void main(String[] args) {
         ReturnTypeOverload obj = new ReturnTypeOverload();
 
-        // Try calling f() without using return value
-        obj.f(); // <-- Compiler cannot decide which f() to call
+        // Demonstrating the valid methods
+        obj.fVoid();              // prints message
+        int result = obj.fInt();  // returns 1
+        System.out.println("fInt() returned: " + result);
+
+        // ❌ Uncommenting the invalid methods above will cause a compiler error
+        // obj.f(); // ambiguous, compiler cannot decide
     }
 }
+
