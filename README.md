@@ -3,11 +3,24 @@
 ![Repo Size](https://img.shields.io/github/repo-size/SemyonKim/java-practice-examples) 
 ![Last Commit](https://img.shields.io/github/last-commit/SemyonKim/java-practice-examples) 
 ![License](https://img.shields.io/github/license/SemyonKim/java-practice-examples) 
-![Java](https://img.shields.io/badge/java-25-blue)
-![Gradle](https://img.shields.io/badge/build-Gradle-02303A.svg?logo=gradle)
+![JDK](https://img.shields.io/badge/JDK-25-orange)
+![Gradle](https://img.shields.io/badge/Gradle-9.2-02303A.svg?logo=gradle)
 
 This repository contains my practical implementations of examples from *On Java 8* by Bruce Eckel.  
 In the future, I plan to expand with examples from other classic Java books, but *On Java 8* is the starting point.
+
+---
+
+## Index
+
+- [Project Structure](#project-structure)
+- [Topics & Examples](#topics--examples)
+- [Requirements](#requirements)
+- [Build Tool](#build-tool)
+- [Notes](#notes)
+- [Documentation](#documentation)
+- [Roadmap](#roadmap)
+- [License](#license)
 
 ---
 
@@ -63,7 +76,7 @@ Here is a growing index of examples with direct links:
 
 - JDK 25 (or whichever version you’re using)
 - Gradle 9.2 (wrapper included in repo)
-
+- Tested on Windows 11
 
 ---
 
