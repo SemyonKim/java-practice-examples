@@ -7,7 +7,8 @@
 ![Gradle](https://img.shields.io/badge/Gradle-9.2-02303A.svg?logo=gradle)
 ![Tagline](https://img.shields.io/badge/Hands--on_Java_practice_from_basics_to_advanced-1E90FF?style=for-the-badge)
 
-This repository contains my practical implementations of examples from *On Java 8* by Bruce Eckel.  
+This repository contains my practical implementations of selected examples from *On Java 8* by Bruce Eckel.  
+I am not implementing every example from the book(s) — only those I find interesting or useful.  
 In the future, I plan to expand with examples from other classic Java books, but *On Java 8* is the starting point.
 
 ---
@@ -100,7 +101,7 @@ Replace `basics.HelloWorld` with the fully qualified class name of the example y
 
 ## 📖 Notes
 Each example may include:
-- Original code inspired by *On Java 8*
+- Selected code inspired by *On Java 8* (not a full reproduction of the book’s examples)
 - My commentary and improvements
 - Edge cases or compiler error demos
 - Additional resources (if required, placed under `src/main/resources`)
