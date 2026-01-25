@@ -49,6 +49,7 @@ Here is a growing index of examples with direct links:
 
 - **Basics**
   - [HelloWorld](src/main/java/basics/HelloWorld.java)
+  - [OnJava8 : Unsigned Right Shift](src/main/java/basics/UnsignedRightShift/URShift.java)
   - *(more examples coming soon)*
 
 - **OOP**
