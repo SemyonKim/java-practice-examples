@@ -82,7 +82,7 @@ class OverloadingVarargs2 {
         // - widened 'a' → float, 'b' → Character (matches first)
         // - both boxed to Character (matches second)
         // ❌ Compiler error: ambiguous
-        f('a', 'b');
+        // f('a', 'b');
     }
 }
 

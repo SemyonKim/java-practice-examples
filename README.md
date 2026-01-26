@@ -55,7 +55,8 @@ Here is a growing index of examples with direct links:
   - *(more examples coming soon)*
 
 - **OOP**
-  - *(examples to be added)*
+  - [OnJava8 : Complete Decoupling](src/main/java/oop/decoupling/Applicator.java)
+  - *(more examples coming soon)*
 
 - **Generics**
   - *(examples to be added)*
@@ -108,6 +109,15 @@ Each example may include:
 - My commentary and improvements
 - Edge cases or compiler error demos
 - Additional resources (if required, placed under `src/main/resources`)
+
+### ⚠️ About Compile‑Error Examples 
+This repository contains both working examples and examples that intentionally produce compiler errors. 
+These error‑producing snippets are included to illustrate Java’s rules and limitations. 
+- All error examples are **commented out** so the project can compile cleanly.
+
+**Why?** 
+- Commented examples let you read the code and understand the issue without breaking the build. 
+
 
 ---
 
