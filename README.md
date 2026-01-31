@@ -37,6 +37,7 @@ Examples are organized by **topics** rather than chapters, so the repository can
 - `streams/` – functional programming, lambdas, streams API
 - `collections/` – lists, sets, maps, iterators
 - `io/` – file handling, serialization
+- `exceptions/` – try/catch, checked vs. unchecked, restrictions, custom exceptions
 - `advanced/` – reflection, annotations, JVM internals
 
 Each folder may contain subfolders for finer granularity (e.g., `basics/string/example1`) and includes examples with commentary and improvements.
@@ -73,6 +74,10 @@ Here is a growing index of examples with direct links:
 
 - **IO**
   - *(examples to be added)*
+
+- **Exceptions**
+  - [OnJava8 : Restrictions](src/main/java/exceptions/restrictions/StormyInning.java)
+  - *(more examples coming soon)*
 
 - **Advanced**
   - *(examples to be added)*
