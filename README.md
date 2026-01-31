@@ -138,5 +138,13 @@ These error‑producing snippets are included to illustrate Java’s rules and l
 
 ---
 
+## 🌍 Author
+- 👤 Semyon Kim
+- 📍 Uzbekistan
+- 🗣️ Languages: Russian (native), English (intermediate), Korean (elementary)
+- 🔗 [GitHub](https://github.com/SemyonKim)
+
+---
+
 ## 📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
