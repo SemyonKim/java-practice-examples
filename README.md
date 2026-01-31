@@ -80,7 +80,8 @@ Here is a growing index of examples with direct links:
   - *(more examples coming soon)*
 
 - **Advanced**
-  - *(examples to be added)*
+  - [OnJava8 : Design by Contract + Unit Testing](src/main/java/advanced/design_by_contract_plus_unit_testing/CircularQueueException.java)
+  - *(more examples coming soon)*
 
 ---
 
