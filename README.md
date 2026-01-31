@@ -56,6 +56,7 @@ Here is a growing index of examples with direct links:
 
 - **OOP**
   - [OnJava8 : Complete Decoupling](src/main/java/oop/decoupling/Applicator.java)
+  - [OnJava8 : Inner Classes - Closures & Callbacks](src/main/java/oop/innerclasses/Callbacks.java)
   - *(more examples coming soon)*
 
 - **Generics**
