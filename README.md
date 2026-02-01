@@ -81,6 +81,7 @@ Here is a growing index of examples with direct links:
 
 - **Advanced**
   - [OnJava8 : Design by Contract + Unit Testing](src/main/java/advanced/design_by_contract_plus_unit_testing/CircularQueueException.java)
+  - [OnJava8 : Proxy Design and Null Object Patterns](src/main/java/advanced/tagginginterfaces/Null.java)
   - *(more examples coming soon)*
 
 ---
