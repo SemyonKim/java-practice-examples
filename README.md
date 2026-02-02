@@ -62,6 +62,7 @@ Here is a growing index of examples with direct links:
 
 - **Generics**
   - [OnJava8 : Template Method Design Pattern](src/main/java/generics/creator/CreatorGeneric.java)
+  - [OnJava8 : Array of Generic](src/main/java/generics/array/ArrayOfGeneric.java)
   - *(more examples coming soon)*
 
 - **Concurrency**
