@@ -68,6 +68,7 @@ Here is a growing index of examples with direct links:
   - [OnJava8 : Issue - Implementing Parameterized Interfaces](src/main/java/generics/interfaces/MultipleInterfaceVariants.java)
   - [OnJava8 : Issue - Class Casting](src/main/java/generics/casting/ClassCastingDemo.java)
   - [OnJava8 : Issue - Base Class Hijacks an Interface](src/main/java/generics/hijacks/ComparablePet.java)
+  - [OnJava8 : Mixins with Dynamic Proxies](src/main/java/generics/mixins/DynamicProxyMixin.java)
   - *(more examples coming soon)*
 
 - **Concurrency**
