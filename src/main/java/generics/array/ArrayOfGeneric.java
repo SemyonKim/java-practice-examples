@@ -1,5 +1,15 @@
 package generics.array;
 
+/*
+==========================
+READ ORDER: GENERIC ARRAYS
+1. ArrayOfGeneric
+2. GenericArray
+3. GenericArray2
+4. GenericArrayWithTypeToken
+==========================
+*/
+
 class Generic<T> {}
 
 public class ArrayOfGeneric {
