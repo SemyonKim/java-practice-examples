@@ -69,6 +69,9 @@ Here is a growing index of examples with direct links:
   - [OnJava8 : Issue - Class Casting](src/main/java/generics/casting/ClassCastingDemo.java)
   - [OnJava8 : Issue - Base Class Hijacks an Interface](src/main/java/generics/hijacks/ComparablePet.java)
   - [OnJava8 : Mixins with Dynamic Proxies](src/main/java/generics/mixins/DynamicProxyMixin.java)
+  - [CoreJava :  You Can Defeat Checked Exception Checking](src/main/java/generics/exceptions/checked/Test.java)
+  - [CoreJava : Type Inference in Generic Record Patterns is
+    Limited](src/main/java/generics/patterns/GenericRecordPatterns.java)
   - *(more examples coming soon)*
 
 - **Concurrency**
