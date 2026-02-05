@@ -1,4 +1,4 @@
-package puzzlers.bloch.puzzle4;
+package puzzlers.bloch.expressive.puzzle4;
 
 /**
  * Joy of Hex

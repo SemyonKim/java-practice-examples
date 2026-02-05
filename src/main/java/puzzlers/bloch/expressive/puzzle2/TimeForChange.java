@@ -1,4 +1,4 @@
-package puzzlers.bloch.puzzle2;
+package puzzlers.bloch.expressive.puzzle2;
 
 import java.math.BigDecimal;
 

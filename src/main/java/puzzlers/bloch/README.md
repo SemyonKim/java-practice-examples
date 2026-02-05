@@ -9,9 +9,10 @@ by Joshua Bloch and Neal Gafter (2005).
 
 ## Index
 - Expressive Puzzlers
-  - [Odd number check pitfalls](puzzle1/Oddity.java)
-  - [Money with double precision](puzzle2/TimeForChange.java)
-  - [Microseconds to milliseconds overflow](puzzle3/LongDivision.java)
-  - [Hex literal type confusion](puzzle4/JoyOfHex.java)
-  - [Sign vs Zero Extension](puzzle5/Multicast.java)
+  - [Odd number check pitfalls](expressive/puzzle1/Oddity.java)
+  - [Money with double precision](expressive/puzzle2/TimeForChange.java)
+  - [Microseconds to milliseconds overflow](expressive/puzzle3/LongDivision.java)
+  - [Hex literal type confusion](expressive/puzzle4/JoyOfHex.java)
+  - [Sign vs Zero Extension](expressive/puzzle5/Multicast.java)
+  - [Conditional Promotion Trap](expressive/puzzle6/DosEquis.java)
 - *(more examples coming soon)*

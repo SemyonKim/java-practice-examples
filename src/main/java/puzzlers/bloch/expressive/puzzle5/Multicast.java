@@ -1,4 +1,4 @@
-package puzzlers.bloch.puzzle5;
+package puzzlers.bloch.expressive.puzzle5;
 
 /**
  * Multicast

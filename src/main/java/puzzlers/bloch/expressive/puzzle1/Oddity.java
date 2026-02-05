@@ -1,4 +1,4 @@
-package puzzlers.bloch.puzzle1;
+package puzzlers.bloch.expressive.puzzle1;
 
 /**
  * Oddity

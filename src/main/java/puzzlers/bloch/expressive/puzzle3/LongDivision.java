@@ -1,4 +1,4 @@
-package puzzlers.bloch.puzzle3;
+package puzzlers.bloch.expressive.puzzle3;
 
 /**
  * Long Division
