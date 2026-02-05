@@ -39,6 +39,7 @@ Examples are organized by **topics** rather than chapters, so the repository can
 - `io/` – file handling, serialization
 - `exceptions/` – try/catch, checked vs. unchecked, restrictions, custom exceptions
 - `advanced/` – reflection, annotations, JVM internals
+- `puzzlers/` - Java puzzles & mistakes
 
 Each folder may contain subfolders for finer granularity (e.g., `basics/string/example1`) and includes examples with commentary and improvements.
 
@@ -95,6 +96,11 @@ Here is a growing index of examples with direct links:
   - [OnJava8 : Proxy Design and Null Object Patterns](src/main/java/advanced/tagginginterfaces/Null.java)
   - *(more examples coming soon)*
 
+- **Puzzlers**
+  - [Java Puzzlers: Traps, Pitfalls, and Corner Cases
+    by Joshua Bloch and Neal Gafter](src/main/java/puzzlers/bloch)
+  - [100 Java Mistakes and How To Avoid Them by Tagir Valeev](src/main/java/puzzlers/valeev)
+
 ---
 
 ## 🛠 Requirements
@@ -115,8 +121,8 @@ This project uses **Gradle** for build and dependency management.
 To compile and run an example:
 
 ```bash
-./gradlew build
-./gradlew run --args="basics.HelloWorld"
+  ./gradlew build
+  ./gradlew run --args="basics.HelloWorld"
 ```
 Replace `basics.HelloWorld` with the fully qualified class name of the example you want to run.
 
@@ -149,7 +155,7 @@ These error‑producing snippets are included to illustrate Java’s rules and l
 
 ## 🚀 Roadmap
 - [x] Initial Gradle setup with HelloWorld
-- [ ] Add examples from *On Java 8*
+- [x] Add examples from *On Java 8*
 - [ ] Expand with examples from other Java books
 - [ ] Add topic‑specific resources (e.g., JSON, text files under `src/main/resources`)
 - [ ] Continuous integration with GitHub Actions (`./gradlew build` on push)
