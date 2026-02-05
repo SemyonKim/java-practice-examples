@@ -3,7 +3,7 @@
 This folder contains examples from *100 Java Mistakes and How To Avoid Them* by Tagir Valeev.
 
 ## Structure
-- Each mistake is placed in its own subfolder (`mistakeXX/`).
+- Each mistake is placed in its own subfolder.
 - Code files are self‑documenting: explanations and lessons are embedded directly in the source.
 
 ## Index
