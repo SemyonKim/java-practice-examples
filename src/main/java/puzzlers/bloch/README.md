@@ -15,4 +15,6 @@ by Joshua Bloch and Neal Gafter (2005).
   - [Hex literal type confusion](expressive/puzzle4/JoyOfHex.java)
   - [Sign vs Zero Extension](expressive/puzzle5/Multicast.java)
   - [Conditional Promotion Trap](expressive/puzzle6/DosEquis.java)
+  - [Compound Assignment Trap](expressive/puzzle7/Tweedledum.java)
+  - [Compound Assignment with References Trap](expressive/puzzle8/Tweedledee.java)
 - *(more examples coming soon)*
