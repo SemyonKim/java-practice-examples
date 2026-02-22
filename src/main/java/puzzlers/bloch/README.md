@@ -17,4 +17,23 @@ by Joshua Bloch and Neal Gafter (2005).
   - [Conditional Promotion Trap](expressive/puzzle6/DosEquis.java)
   - [Compound Assignment Trap](expressive/puzzle7/Tweedledum.java)
   - [Compound Assignment with References Trap](expressive/puzzle8/Tweedledee.java)
+- Puzzlers with Character
+  - [Unicode Preprocessing Trap](character/puzzle1/EscapeRout.java)
+  - [Line Feed Injection Trap](character/puzzle2/LineFeedInjection.java)
+  - [Unicode Literal Trap](character/puzzle3/Ugly.java)
+  - [Charset Mapping Trap](character/puzzle4/StringCheese.java)
+  - [Regex Replacement Trap](character/puzzle5/RegexTrap.java)
+- Loopy Puzzlers
+  - [Bitwise Masking Requirement](loopy/puzzle1/BitwiseMasking.java)
+  - [Infinite Shift Loop Trap](loopy/puzzle2/ShiftLoop.java)
+  - [Floating-Point Precision Gap](loopy/puzzle3/Looper.java)
+  - [Non-Self-Equal Trap](loopy/puzzle4/NaNLooper.java)
+  - [Shifting Short Infinite Loop](loopy/puzzle5/CompoundTrap.java)
+  - [Floating-Point Step-or-Stall Trap](loopy/puzzle6/FloatPrecisionTrap.java)
+- Exceptional Puzzlers
+  - [Arcane Exception Trio](exceptional/puzzle1/Arcane3.java)
+  - [Definite Unassignment Paradox](exceptional/puzzle2/UnwelcomeGuest.java)
+  - [Scoping Linkage Paradox](exceptional/puzzle3/Strange2.java)
+  - [Exhausting Recursive Trap](exceptional/puzzle4/Workout.java)
+- Classy Puzzlers
 - *(more examples coming soon)*
