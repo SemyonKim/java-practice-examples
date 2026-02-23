@@ -45,10 +45,7 @@ by Joshua Bloch and Neal Gafter (2005).
   - [Static Methods on Null References](classy/puzzle7/Null.java)
   - [Local Variable Declaration Statement Trap](classy/puzzle8/Creator.java)
 - Library Puzzlers
-  - []()
-  - []()
-  - []()
-  - []()
-  - []()
-  - []()
+  - [Absolute Minimum Trap](library/puzzle1/Modesty.java)
+  - [Integer Overflow Comparator Trap](library/puzzle2/SuspiciousSort.java)
+- Classier Puzzlers
 - *(more examples coming soon)*
