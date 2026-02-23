@@ -36,4 +36,19 @@ by Joshua Bloch and Neal Gafter (2005).
   - [Scoping Linkage Paradox](exceptional/puzzle3/Strange2.java)
   - [Exhausting Recursive Trap](exceptional/puzzle4/Workout.java)
 - Classy Puzzlers
+  - [Case of the Confusing Constructor](classy/puzzle1/Confusing.java)
+  - [Static Initialization Paradox](classy/puzzle2/Elvis.java)
+  - [Instanceof-Cast Contrast](classy/puzzle3/TypeTests.java)
+  - [Overridable Method in Constructor Trap](classy/puzzle4/ColorPoint.java)
+  - [Re-Initialization Reset](classy/puzzle5/Client.java)
+  - [Private Constructor Capture](classy/puzzle6/MyThing.java)
+  - [Static Methods on Null References](classy/puzzle7/Null.java)
+  - [Local Variable Declaration Statement Trap](classy/puzzle8/Creator.java)
+- Library Puzzlers
+  - []()
+  - []()
+  - []()
+  - []()
+  - []()
+  - []()
 - *(more examples coming soon)*
