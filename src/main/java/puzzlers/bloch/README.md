@@ -48,4 +48,22 @@ by Joshua Bloch and Neal Gafter (2005).
   - [Absolute Minimum Trap](library/puzzle1/Modesty.java)
   - [Integer Overflow Comparator Trap](library/puzzle2/SuspiciousSort.java)
 - Classier Puzzlers
-- *(more examples coming soon)*
+  - [Field Hiding Illusion](classier/puzzle1/PublicMatter.java)
+  - [Closest Class Definition Trap](classier/puzzle2/StrungOut.java)
+  - [Obscuring Redux: Variable Precedence Over Type](classier/puzzle3/ShadesOfGray.java)
+  - [Package-Private Pitfall](classier/puzzle4/hack/TypeIt.java)
+  - [Inherited Members Shadow Static Import](classier/puzzle5/ImportDuty.java)
+  - [Inconsistency in The Final Modifier for Methods and Fields](classier/puzzle6/DoubleJeopardy.java)
+- More Library Puzzlers
+  - [Reflection Infection: Inaccessible Qualifying Type Trap](libraryadvanced/puzzle1/Reflector.java)
+  - [Innermost Scope Name Resolution Trap](libraryadvanced/puzzle2/Pet.java)
+  - [Reflection and Inner Class Implicit Constructor](libraryadvanced/puzzle3/Outer.java)
+  - [Beer Blast: The Hung Process Trap](libraryadvanced/puzzle4/BeerBlast.java)
+- Advanced Puzzlers
+  - [Literal Exception: Special Case for MIN int and long](advanced/puzzle1/LiteralEdge.java)
+  - [Computational equality (==) violates Reflexivity and Transitivity, but honors Symmetry](advanced/puzzle2/EqualityParadox.java)
+  - [Raw Type Infection: The Erasure Trap](advanced/puzzle3/RawInfection.java)
+  - [Generic Shadowing: The Identity Crisis](advanced/puzzle4/LinkedList.java)
+  - [Serial Killer: The Deserialization Hazard](advanced/puzzle5/SerialKiller.java)
+  - [Twisted Pair: The Scope vs. Inheritance Trap](advanced/puzzle6/Twisted.java)
+  - [Brittle Constant Syndrome: Binary Incompatibility](advanced/puzzle7/client/PrintWords.java)
