@@ -46,5 +46,15 @@ This folder contains selected examples from *100 Java Mistakes and How To Avoid 
   - [Using Null Values in Maps](collections/mistake1/NullInMapsMistake.java)
   - [Trying to Modify an Unmodifiable Collection](collections/mistake2/UnmodifiableCollectionMistake.java)
   - [Using Mutable Objects as Keys](collections/mistake3/MutableKeyMistake.java)
+  - [Concurrent Modification During Iteration](collections/mistake4/ConcurrentModificationMistake.java)
+  - [Mixing Collection.remove(Object) and List.remove(int) for List of Integer](collections/mistake5/ListRemoveMistake.java)
+  - [Reading the Collection inside Collection.removeIf()](collections/mistake6/RemoveIfQueryMistake.java)
+  - [Concurrent Modification in Map.computeIfAbsent()](collections/mistake7/ComputeIfAbsentMistake.java)
+  - [Violating Iterator Contracts](collections/mistake8/IteratorContractMistake.java)
+- Library methods
+  - [Using Null Values in a Stream](library/mistake1/StreamNullMistake.java)
+  - [Violating the Stream API Contract: Stream.reduce(identity, accumulator)](library/mistake2/StreamContractMistake.java)
+  - [Using getClass() instead of instanceOf](library/mistake3/GetClassVsInstanceof.java)
+  - [Using getClass() on enums, annotations or Class<?>](library/mistake4/Mistake88.java)
   - []()
 - *(to be filled as examples are added)*
