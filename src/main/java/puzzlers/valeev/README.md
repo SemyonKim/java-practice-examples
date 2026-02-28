@@ -56,5 +56,8 @@ This folder contains selected examples from *100 Java Mistakes and How To Avoid 
   - [Violating the Stream API Contract: Stream.reduce(identity, accumulator)](library/mistake2/StreamContractMistake.java)
   - [Using getClass() instead of instanceOf](library/mistake3/GetClassVsInstanceof.java)
   - [Using getClass() on enums, annotations or Class<?>](library/mistake4/Mistake88.java)
-  - []()
-- *(to be filled as examples are added)*
+  - [Accidental invalidation of weak or soft references](library/mistake5/WeakReferenceInvalidation.java)
+  - [Time-of-Check to Time-of-Use (TOCTOU) vulnerabilities](library/mistake6/WorldStabilityMistake.java)
+- Unit testing
+  - [Side effect in assert statement](testing/mistake1/AssertSideEffectMistake.java)
+  - [Using assertNotEquals() to check the equality contract](testing/mistake2/AssertNotEqualsMistake.java)
