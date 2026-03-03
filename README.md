@@ -39,6 +39,7 @@ Examples are organized by **topics** rather than chapters, so the repository can
 - `io/` – file handling, serialization
 - `exceptions/` – try/catch, checked vs. unchecked, restrictions, custom exceptions
 - `advanced/` – reflection, annotations, JVM internals
+- `patterns/` - design patterns
 - `puzzlers/` - Java puzzles & mistakes
 
 Each folder may contain subfolders for finer granularity (e.g., `basics/string/example1`) and includes examples with commentary and improvements.
@@ -96,10 +97,17 @@ Here is a growing index of examples with direct links:
   - [OnJava8 : Proxy Design and Null Object Patterns](src/main/java/advanced/tagginginterfaces/Null.java)
   - *(more examples coming soon)*
 
+- **Design Patterns**
+  - [Course: Java Design Patterns and Architecture
+    by John Purcell](src/main/java/patterns/caveofprogramming/README.md)
+  - [Gang of Four (GoF) Design Patterns](src/main/java/patterns/gof/README.md)
+  - *(more examples coming soon)*
+
 - **Puzzlers**
   - [Java Puzzlers: Traps, Pitfalls, and Corner Cases
     by Joshua Bloch and Neal Gafter](src/main/java/puzzlers/bloch)
   - [100 Java Mistakes and How To Avoid Them by Tagir Valeev](src/main/java/puzzlers/valeev)
+  - *(more examples coming soon)*
 
 ---
 
