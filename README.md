@@ -100,13 +100,14 @@ Here is a growing index of examples with direct links:
 - **Design Patterns**
   - [Course: Java Design Patterns and Architecture
     by John Purcell](src/main/java/patterns/caveofprogramming/README.md)
-  - [Gang of Four (GoF) Design Patterns](src/main/java/patterns/gof/README.md)
+  - [TODO:Gang of Four (GoF) Design Patterns](src/main/java/patterns/gof/README.md)
   - *(more examples coming soon)*
 
 - **Puzzlers**
   - [Java Puzzlers: Traps, Pitfalls, and Corner Cases
     by Joshua Bloch and Neal Gafter](src/main/java/puzzlers/bloch)
   - [100 Java Mistakes and How To Avoid Them by Tagir Valeev](src/main/java/puzzlers/valeev)
+  - [TODO:Effective Java by Joshua Bloch](src/main/java/puzzlers/blocheffectivejava/README.md)
   - *(more examples coming soon)*
 
 ---
