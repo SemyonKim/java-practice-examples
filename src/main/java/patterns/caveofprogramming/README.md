@@ -16,10 +16,9 @@ This repository contains my personal notes, code exercises, and project implemen
 - [Basic DAO (CRUD)](dao/basic/UserDAO.java)
 - [DAO Factories](dao/factory/DAOFactory.java)
 - [Extending DAO for Multiple Databases](dao/multidb/MultiDbFactory.java)
-- [Saving to Memory]()
-- [Factory Pattern]()
-- [Facades]()
-- [Adapter Pattern]()
+- [Factory Method Pattern](factorymethod/App.java)
+- [Facade Pattern](facade/HomeTheaterFacade.java)
+- [Adapter Pattern](adapter/VideoAdapter.java)
 
 ---
 
