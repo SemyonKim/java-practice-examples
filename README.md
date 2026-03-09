@@ -107,7 +107,7 @@ Here is a growing index of examples with direct links:
   - [Java Puzzlers: Traps, Pitfalls, and Corner Cases
     by Joshua Bloch and Neal Gafter](src/main/java/puzzlers/bloch)
   - [100 Java Mistakes and How To Avoid Them by Tagir Valeev](src/main/java/puzzlers/valeev)
-  - [TODO:Effective Java by Joshua Bloch](src/main/java/puzzlers/blocheffectivejava/README.md)
+  - [TODO:Effective Java by Joshua Bloch](src/main/java/puzzlers/effectivejava/README.md)
   - *(more examples coming soon)*
 
 ---
