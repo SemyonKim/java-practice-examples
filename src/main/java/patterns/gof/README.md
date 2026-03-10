@@ -8,6 +8,11 @@ The goal of this repository is to provide clear, concise, and well-documented ex
 
 ---
 
+- [Introduction to Design Patterns](intro/ch1/README.md)
+- [A Case Study: Designing a Document Editor (Lexi)](intro/ch2/README.md)
+
+---
+
 ## 📂 Pattern Catalog
 The patterns are categorized into three fundamental groups:
 
