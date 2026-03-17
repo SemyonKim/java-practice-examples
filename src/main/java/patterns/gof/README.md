@@ -18,23 +18,23 @@ The patterns are categorized into three fundamental groups:
 
 ---
 
-### 1. Creational Patterns
+### 1. [Creational Patterns](creational/README.md)
 Focus on the mechanisms of object creation.
-- **Singleton**: Ensures a class has only one instance.
-- **Factory Method**: Defines an interface for creating an object but lets subclasses decide which class to instantiate.
-- **Abstract Factory**: Provides an interface for creating families of related objects.
-- **Builder**: Separates the construction of a complex object from its representation.
-- **Prototype**: Creates new objects by copying an existing instance.
+- **[Singleton](creational/singleton/README.md)**: Ensures a class has only one instance.
+- **[Factory Method](creational/factorymethod/README.md)**: Defines an interface for creating an object but lets subclasses decide which class to instantiate.
+- **[Abstract Factory](creational/abstractfactory/README.md)**: Provides an interface for creating families of related objects.
+- **[Builder](creational/builder/README.md)**: Separates the construction of a complex object from its representation.
+- **[Prototype](creational/prototype/README.md)**: Creates new objects by copying an existing instance.
 
-### 2. Structural Patterns
+### 2. [Structural Patterns](structural/README.md)
 Focus on how classes and objects are composed to form larger structures.
-- **Adapter**: Allows incompatible interfaces to work together.
-- **Bridge**: Decouples an abstraction from its implementation.
-- **Composite**: Treats individual objects and compositions of objects uniformly.
-- **Decorator**: Dynamically adds responsibilities to an object.
-- **Facade**: Provides a simplified interface to a complex subsystem.
-- **Flyweight**: Uses sharing to support large numbers of fine-grained objects efficiently.
-- **Proxy**: Provides a surrogate or placeholder for another object.
+- **[Adapter](structural/adapter/README.md)**: Allows incompatible interfaces to work together.
+- **[Bridge](structural/bridge/README.md)**: Decouples an abstraction from its implementation.
+- **[Composite](structural/composite/README.md)**: Treats individual objects and compositions of objects uniformly.
+- **[Decorator](structural/decorator/README.md)**: Dynamically adds responsibilities to an object.
+- **[Facade](structural/facade/README.md)**: Provides a simplified interface to a complex subsystem.
+- **[Flyweight](structural/flyweight/README.md)**: Uses sharing to support large numbers of fine-grained objects efficiently.
+- **[Proxy](structural/proxy/README.md)**: Provides a surrogate or placeholder for another object.
 
 ### 3. Behavioral Patterns
 Focus on communication between objects and the assignment of responsibilities.
@@ -59,6 +59,18 @@ Each subfolder corresponds to a specific pattern. Inside, you will find:
 > "Design patterns are not a silver bullet; they are tools to help you communicate intent and structure your code more effectively."
 
 --- 
+
 ## 📚 References
-- **Book:** Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley Professional.
-- **Original Concepts:** This repository is for educational purposes, implementing the structural, creational, and behavioral patterns defined by the "Gang of Four."
+
+This documentation is a structured adaptation of the foundational concepts presented in:
+> **Design Patterns: Elements of Reusable Object-Oriented Software**
+> *Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (The Gang of Four)*
+
+### Documentation Notes:
+* **Source Material:** The theoretical definitions, problem statements, and classic design motivations are derived from the original 1994 text.
+* **Modern Adaptations:** The code implementations and architectural summaries have been updated for **Modern Java (JDK 21+)**, utilizing contemporary features such as:
+    * **Sealed Interfaces & Classes** (JEP 409) for controlled hierarchies.
+    * **Records** (JEP 395) for immutable data carriers.
+    * **Pattern Matching for switch** (JEP 441) as a functional alternative to the Visitor pattern.
+    * **Functional Interfaces & Lambdas** for Strategy and Observer implementations.
+* **Purpose:** This repository serves as a personal reference guide and a bridge between classic GoF principles and modern software engineering practices.

@@ -33,9 +33,9 @@ Patterns are classified by two criteria:
 1. **Purpose:** What a pattern does (Creational, Structural, Behavioral).
 2. **Scope:** Whether the pattern applies primarily to Classes (static relationships via inheritance) or Objects (dynamic relationships via composition at run-time).
 
-| Scope | Creational | Structural | Behavioral |
-| :--- | :--- | :--- | :--- |
-| **Class** | Factory Method | Adapter (class) | Interpreter <br>Template Method |
+| Scope      | Creational                                               | Structural                                                                                 | Behavioral                                                                                                                |
+|:-----------|:---------------------------------------------------------|:-------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
+| **Class**  | Factory Method                                           | Adapter (class)                                                                            | Interpreter <br>Template Method                                                                                           |
 | **Object** | Abstract Factory <br>Builder <br>Prototype <br>Singleton | Adapter (object) <br>Bridge <br>Composite <br>Decorator <br>Facade <br>Flyweight <br>Proxy | Chain of Responsibility <br>Command <br>Iterator <br>Mediator <br>Memento <br>Observer <br>State <br>Strategy <br>Visitor |
 
 ---
@@ -74,31 +74,31 @@ Here are some common causes of redesign along with the design pattern(s) that ad
 
 To select a pattern, consider the causes of redesign (e.g., tight coupling, algorithmic dependencies) or consider what aspect of your system you want to vary independently. Use patterns cautiously; do not apply them indiscriminately, as they often introduce indirection that can complicate designs or impact performance.
 
-| Purpose | Design Pattern | Aspect(s) That Can Vary |
-| :--- | :--- | :--- |
-| **Creational** | Abstract Factory | Families of product objects |
-| | Builder | How a composite object gets created |
-| | Factory Method | Subclass of object that is instantiated |
-| | Prototype | Class of object that is instantiated |
-| | Singleton | The sole instance of a class |
-| **Structural** | Adapter | Interface to an object |
-| | Bridge | Implementation of an object |
-| | Composite | Structure and composition of an object |
-| | Decorator | Responsibilities of an object without subclassing |
-| | Facade | Interface to a subsystem |
-| | Flyweight | Storage costs of objects |
-| | Proxy | How an object is accessed; its location |
-| **Behavioral** | Chain of Responsibility | Object that can fulfill a request |
-| | Command | When and how a request is fulfilled |
-| | Interpreter | Grammar and interpretation of a language |
-| | Iterator | How an aggregate's elements are accessed, traversed |
-| | Mediator | How and which objects interact with each other |
-| | Memento | What private information is stored outside an object, and when |
-| | Observer | Number of objects that depend on another object; how they stay up to date |
-| | State | States of an object |
-| | Strategy | An algorithm |
-| | Template Method | Steps of an algorithm |
-| | Visitor | Operations that can be applied to object(s) without changing their class(es) |
+| Purpose        | Design Pattern          | Aspect(s) That Can Vary                                                      |
+|:---------------|:------------------------|:-----------------------------------------------------------------------------|
+| **Creational** | Abstract Factory        | Families of product objects                                                  |
+|                | Builder                 | How a composite object gets created                                          |
+|                | Factory Method          | Subclass of object that is instantiated                                      |
+|                | Prototype               | Class of object that is instantiated                                         |
+|                | Singleton               | The sole instance of a class                                                 |
+| **Structural** | Adapter                 | Interface to an object                                                       |
+|                | Bridge                  | Implementation of an object                                                  |
+|                | Composite               | Structure and composition of an object                                       |
+|                | Decorator               | Responsibilities of an object without subclassing                            |
+|                | Facade                  | Interface to a subsystem                                                     |
+|                | Flyweight               | Storage costs of objects                                                     |
+|                | Proxy                   | How an object is accessed; its location                                      |
+| **Behavioral** | Chain of Responsibility | Object that can fulfill a request                                            |
+|                | Command                 | When and how a request is fulfilled                                          |
+|                | Interpreter             | Grammar and interpretation of a language                                     |
+|                | Iterator                | How an aggregate's elements are accessed, traversed                          |
+|                | Mediator                | How and which objects interact with each other                               |
+|                | Memento                 | What private information is stored outside an object, and when               |
+|                | Observer                | Number of objects that depend on another object; how they stay up to date    |
+|                | State                   | States of an object                                                          |
+|                | Strategy                | An algorithm                                                                 |
+|                | Template Method         | Steps of an algorithm                                                        |
+|                | Visitor                 | Operations that can be applied to object(s) without changing their class(es) |
 
 ---
 
