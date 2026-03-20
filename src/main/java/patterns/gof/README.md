@@ -10,6 +10,7 @@ The goal of this repository is to provide clear, concise, and well-documented ex
 
 - [Introduction to Design Patterns](intro/ch1/README.md)
 - [A Case Study: Designing a Document Editor (Lexi)](intro/ch2/README.md)
+- [Design Pattern Relationships](relationships/README.md)
 
 ---
 
@@ -36,19 +37,19 @@ Focus on how classes and objects are composed to form larger structures.
 - **[Flyweight](structural/flyweight/README.md)**: Uses sharing to support large numbers of fine-grained objects efficiently.
 - **[Proxy](structural/proxy/README.md)**: Provides a surrogate or placeholder for another object.
 
-### 3. Behavioral Patterns
+### 3. [Behavioral Patterns](behavioral/README.md)
 Focus on communication between objects and the assignment of responsibilities.
-- **Chain of Responsibility**: Passes a request along a chain of handlers.
-- **Command**: Encapsulates a request as an object.
-- **Interpreter**: Provides a way to evaluate language grammar or expressions.
-- **Iterator**: Provides a way to access elements of an aggregate object sequentially.
-- **Mediator**: Defines how a set of objects interact to reduce direct dependencies.
-- **Memento**: Captures and restores an object's internal state.
-- **Observer**: A way of notifying multiple objects about any events that happen to the object they’re observing.
-- **State**: Allows an object to alter its behavior when its internal state changes.
-- **Strategy**: Defines a family of algorithms and makes them interchangeable.
-- **Template Method**: Defines the skeleton of an algorithm, deferring steps to subclasses.
-- **Visitor**: Separates an algorithm from the object structure on which it operates.
+- **[Chain of Responsibility](behavioral/chainofresponsibility/README.md)**: Passes a request along a chain of handlers.
+- **[Command](behavioral/command/README.md)**: Encapsulates a request as an object.
+- **[Interpreter](behavioral/interpreter/README.md)**: Provides a way to evaluate language grammar or expressions.
+- **[Iterator](behavioral/iterator/README.md)**: Provides a way to access elements of an aggregate object sequentially.
+- **[Mediator](behavioral/mediator/README.md)**: Defines how a set of objects interact to reduce direct dependencies.
+- **[Memento](behavioral/memento/README.md)**: Captures and restores an object's internal state.
+- **[Observer](behavioral/observer/README.md)**: A way of notifying multiple objects about any events that happen to the object they’re observing.
+- **[State](behavioral/state/README.md)**: Allows an object to alter its behavior when its internal state changes.
+- **[Strategy](behavioral/strategy/README.md)**: Defines a family of algorithms and makes them interchangeable.
+- **[Template Method](behavioral/templatemethod/README.md)**: Defines the skeleton of an algorithm, deferring steps to subclasses.
+- **[Visitor](behavioral/visitor/README.md)**: Separates an algorithm from the object structure on which it operates.
 
 ---
 
