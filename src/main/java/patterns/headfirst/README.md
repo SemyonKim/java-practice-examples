@@ -15,7 +15,7 @@ Below is the list of design patterns covered in the book. I will update this lis
 
 * [x] [Strategy Pattern](strategy/README.md)
 * [x] [Observer Pattern](observer/README.md)
-* [ ] [Decorator Pattern](decorator/README.md)
+* [x] [Decorator Pattern](decorator/README.md)
 * [ ] [Factory Method Pattern](factorymethod/README.md)
 * [ ] [Abstract Factory Pattern](abstractfactory/README.md)
 * [ ] [Singleton Pattern](singleton/README.md)

@@ -1,5 +1,15 @@
 # Strategy Pattern
 
+> 💡 **DESIGN Principle:** Favor composition over inheritance.
+
+> 💡 **DESIGN Principle:** The one constant in software development is CHANGE.
+
+> 💡 **DESIGN Principle:** Identify the aspects of your application that vary and separate them from what stays the same.
+
+> 💡 **DESIGN Principle:** Program to an interface, not an implementation. “Program to an interface” really means “Program to a supertype.”
+
+> 🧩 **DESIGN PATTERN:** The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.  Strategy lets the algorithm vary independently of clients that use it.
+
 ### Phase 1: The Naive State (Inheritance Problem) 
 
 ```mermaid
@@ -70,12 +80,6 @@ classDiagram
     Quackable <|.. RubberDuck
     note for MallardDuck "Problem: No code reuse for fly() or quack() across subclasses."
 ```
-
-> 💡 **DESIGN Principle:** The one constant in software development is CHANGE. 
-
-> 💡 **DESIGN Principle:** Identify the aspects of your application that vary and separate them from what stays the same. 
-
-> 💡 **DESIGN Principle:** Program to an interface, not an implementation. “Program to an interface” really means “Program to a supertype.” 
 
 ### Phase 3: Final Pattern-Refined (Behavior Families & Delegation) 
 
@@ -228,7 +232,3 @@ public class MiniDuckSimulator {
     }
 }
 ```
-
-> 💡 **DESIGN Principle:** Favor composition over inheritance. 
-
-> 🧩 **DESIGN PATTERN:** The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.  Strategy lets the algorithm vary independently of clients that use it. 
