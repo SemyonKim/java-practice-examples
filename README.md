@@ -101,7 +101,7 @@ Here is a growing index of examples with direct links:
   - [Course: Java Design Patterns and Architecture
     by John Purcell](src/main/java/patterns/caveofprogramming/README.md)
   - [Gang of Four (GoF) Design Patterns](src/main/java/patterns/gof/README.md)
-  - [TODO: Head First Design Patterns by Eric Freeman and Elisabeth Robson]()
+  - [Head First Design Patterns by Eric Freeman and Elisabeth Robson](src/main/java/patterns/headfirst/README.md)
   - *(more examples coming soon)*
 
 - **Puzzlers**
