@@ -71,11 +71,11 @@ classDiagram
     note for MallardDuck "Problem: No code reuse for fly() or quack() across subclasses."
 ```
 
-> ⚠️ **DESIGN RULE:** The one constant in software development is CHANGE. 
+> 💡 **DESIGN Principle:** The one constant in software development is CHANGE. 
 
-> ⚠️ **DESIGN RULE:** Identify the aspects of your application that vary and separate them from what stays the same. 
+> 💡 **DESIGN Principle:** Identify the aspects of your application that vary and separate them from what stays the same. 
 
-> ⚠️ **DESIGN RULE:** Program to an interface, not an implementation. “Program to an interface” really means “Program to a supertype.” 
+> 💡 **DESIGN Principle:** Program to an interface, not an implementation. “Program to an interface” really means “Program to a supertype.” 
 
 ### Phase 3: Final Pattern-Refined (Behavior Families & Delegation) 
 
@@ -229,6 +229,6 @@ public class MiniDuckSimulator {
 }
 ```
 
-> ⚠️ **DESIGN RULE:** Favor composition over inheritance. 
+> 💡 **DESIGN Principle:** Favor composition over inheritance. 
 
-> ⚠️ **DESIGN RULE:** The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.  Strategy lets the algorithm vary independently of clients that use it. 
+> 🧩 **DESIGN PATTERN:** The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.  Strategy lets the algorithm vary independently of clients that use it. 

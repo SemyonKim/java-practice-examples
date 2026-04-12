@@ -14,7 +14,7 @@ Each design pattern is documented in its own dedicated `.md` file, focusing on t
 Below is the list of design patterns covered in the book. I will update this list with links to the individual `.md` files as I document each chapter.
 
 * [x] [Strategy Pattern](strategy/README.md)
-* [ ] [Observer Pattern](observer/README.md)
+* [x] [Observer Pattern](observer/README.md)
 * [ ] [Decorator Pattern](decorator/README.md)
 * [ ] [Factory Method Pattern](factorymethod/README.md)
 * [ ] [Abstract Factory Pattern](abstractfactory/README.md)
