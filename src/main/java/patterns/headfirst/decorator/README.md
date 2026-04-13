@@ -1,11 +1,11 @@
 # Decorator Pattern
 
 > 💡 **DESIGN Principles:**
-> 1. Encapsulate what varies. 
-> 2. Favor composition over inheritance. 
-> 3. Program to interfaces, not implementations. 
-> 4. Strive for loosely coupled designs between objects that interact. 
-> 5. Open-Closed Principle: Classes should be open for extension, but closed for modification. 
+> * Encapsulate what varies.
+> * Favor composition over inheritance.
+> * Program to interfaces, not implementations.
+> * Strive for loosely coupled designs between objects that interact.
+> * **Open Closed Principle:** Classes should be open for extension but closed for modification.
 
 > 🧩 **DESIGN PATTERN:**
 > Decorator - Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. 

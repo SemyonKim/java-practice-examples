@@ -18,7 +18,7 @@ Below is the list of design patterns covered in the book. I will update this lis
 * [x] [Decorator Pattern](decorator/README.md)
 * [x] [Factory Pattern](factorypattern/README.md)
 * [x] [Singleton Pattern](singleton/README.md)
-* [ ] [Command Pattern](command/README.md)
+* [x] [Command Pattern](command/README.md)
 * [ ] [Adapter Pattern](adapter/README.md)
 * [ ] [Facade Pattern](facade/README.md)
 * [ ] [Template Method Pattern](templatemethod/README.md)

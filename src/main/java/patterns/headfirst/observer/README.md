@@ -1,10 +1,10 @@
 # Observer Pattern
 
-> 💡 **DESIGN Principles:** 
-> 1. Encapsulate what varies.
-> 2. Favor composition over inheritance.
-> 3. Program to interfaces, not implementations.
-> 4. Strive for loosely coupled designs between objects that interact.
+> 💡 **DESIGN Principles:**
+> * Encapsulate what varies.
+> * Favor composition over inheritance.
+> * Program to interfaces, not implementations.
+> * Strive for loosely coupled designs between objects that interact.
 
 > 🧩 **DESIGN PATTERN:** The Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
