@@ -5,9 +5,9 @@
 > * Favor composition over inheritance. 
 > * Program to interfaces, not implementations.
 > * Strive for loosely coupled designs between objects that interact.
-> * Open Closed Principle: Classes should be open for extension but closed for modification. 
-> * Dependency Inversion Principle: Depend on abstractions. Do not depend on concrete classes.
-> * Principle of Least Knowledge: talk only to your immediate friends. 
+> * **Open Closed Principle:** Classes should be open for extension but closed for modification. 
+> * **Dependency Inversion Principle:** Depend on abstractions. Do not depend on concrete classes.
+> * **Principle of Least Knowledge:** Talk only to your immediate friends. 
 
 > 🧩 **DESIGN PATTERN:**
 > * The Adapter Pattern converts the interface of a class into another interface the clients expect.  Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
