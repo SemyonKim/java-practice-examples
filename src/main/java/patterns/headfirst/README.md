@@ -29,3 +29,4 @@ Below is the list of design patterns covered in the book. I will update this lis
 ---
 
 * [x] [Design Patterns: Documentation](documentation/README.md)
+* [x] [Design Patterns: Extended Architectural Catalog](extended/README.md)
