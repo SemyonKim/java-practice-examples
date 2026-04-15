@@ -24,4 +24,4 @@ Below is the list of design patterns covered in the book. I will update this lis
 * [x] [Iterator & Composite Patterns](iteratorandcomposite/README.md)
 * [x] [State Pattern](state/README.md)
 * [x] [Proxy Pattern](proxy/README.md)
-* [ ] [Compound Patterns (e.g., MVC)](compound/README.md)
+* [x] [Compound Patterns (e.g., MVC)](compound/README.md)
