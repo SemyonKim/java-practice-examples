@@ -17,7 +17,7 @@ Below is the master structure of the notes. Each link leads to a detailed `READM
 |:--------|:-----------------------------------|:-------|:----------------------------------|
 | **01**  | **Introduction**                   | ✅      | [View Notes](chapter01/README.md) |
 | **02**  | **Thread Safety**                  | ✅      | [View Notes](chapter02/README.md) |
-| **03**  | **Sharing Objects**                | ⏳      | [View Notes](chapter03/README.md) |
+| **03**  | **Sharing Objects**                | ✅      | [View Notes](chapter03/README.md) |
 | **04**  | **Composing Objects**              | ⏳      | [View Notes](chapter04/README.md) |
 | **05**  | **Building Blocks**                | ⏳      | [View Notes](chapter05/README.md) |
 | **06**  | **Task Execution**                 | ⏳      | [View Notes](chapter06/README.md) |
