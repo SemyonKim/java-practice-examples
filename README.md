@@ -77,7 +77,8 @@ Here is a growing index of examples with direct links:
   - *(more examples coming soon)*
 
 - **Concurrency**
-  - *(examples to be added)*
+  - [Java Concurrency in Practice by Brian Goetz et al (Notes)](src/main/java/concurrency/briangoetz/README.md)
+  - *(more examples coming soon)*
 
 - **Streams**
   - *(examples to be added)*
