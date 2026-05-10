@@ -13,22 +13,23 @@ Unlike standard summaries, these notes prioritize:
 ## 🗺️ Documentation Roadmap
 Below is the master structure of the notes. Each link leads to a detailed `README.md` containing the mental model, modern context, and code proofs for that specific chapter.
 
-| Chapter | Title                              | Status | Link                              |
-|:--------|:-----------------------------------|:-------|:----------------------------------|
-| **01**  | **Introduction**                   | ✅      | [View Notes](chapter01/README.md) |
-| **02**  | **Thread Safety**                  | ✅      | [View Notes](chapter02/README.md) |
-| **03**  | **Sharing Objects**                | ✅      | [View Notes](chapter03/README.md) |
-| **04**  | **Composing Objects**              | ✅      | [View Notes](chapter04/README.md) |
-| **05**  | **Building Blocks**                | ⏳      | [View Notes](chapter05/README.md) |
-| **06**  | **Task Execution**                 | ⏳      | [View Notes](chapter06/README.md) |
-| **07**  | **Cancellation & Shutdown**        | ⏳      | [View Notes](chapter07/README.md) |
-| **08**  | **Applying Thread Pools**          | ⏳      | [View Notes](chapter08/README.md) |
-| **10**  | **Avoiding Liveness Hazards**      | ⏳      | [View Notes](chapter10/README.md) |
-| **11**  | **Performance & Scalability**      | ⏳      | [View Notes](chapter11/README.md) |
-| **13**  | **Explicit Locks**                 | ⏳      | [View Notes](chapter13/README.md) |
-| **14**  | **Building Custom Synchronizers**  | ⏳      | [View Notes](chapter14/README.md) |
-| **15**  | **Atomic Variables & Nonblocking** | ⏳      | [View Notes](chapter15/README.md) |
-| **16**  | **The Java Memory Model**          | ⏳      | [View Notes](chapter16/README.md) |
+| Chapter | Title                                          | Status | Link                                    |
+|:--------|:-----------------------------------------------|:-------|:----------------------------------------|
+| **01**  | **Introduction**                               | ✅      | [View Notes](part1/chapter01/README.md) |
+| **02**  | **Thread Safety**                              | ✅      | [View Notes](part1/chapter02/README.md) |
+| **03**  | **Sharing Objects**                            | ✅      | [View Notes](part1/chapter03/README.md) |
+| **04**  | **Composing Objects**                          | ✅      | [View Notes](part1/chapter04/README.md) |
+| **05**  | **Building Blocks**                            | ✅      | [View Notes](part1/chapter05/README.md) |
+|         | ***Summary I: Fundamentals of Thread Safety*** | ✅      | [View summary](part1/README.md)         |
+| **06**  | **Task Execution**                             | ⏳      | [View Notes](chapter06/README.md)       |
+| **07**  | **Cancellation & Shutdown**                    | ⏳      | [View Notes](chapter07/README.md)       |
+| **08**  | **Applying Thread Pools**                      | ⏳      | [View Notes](chapter08/README.md)       |
+| **10**  | **Avoiding Liveness Hazards**                  | ⏳      | [View Notes](chapter10/README.md)       |
+| **11**  | **Performance & Scalability**                  | ⏳      | [View Notes](chapter11/README.md)       |
+| **13**  | **Explicit Locks**                             | ⏳      | [View Notes](chapter13/README.md)       |
+| **14**  | **Building Custom Synchronizers**              | ⏳      | [View Notes](chapter14/README.md)       |
+| **15**  | **Atomic Variables & Nonblocking**             | ⏳      | [View Notes](chapter15/README.md)       |
+| **16**  | **The Java Memory Model**                      | ⏳      | [View Notes](chapter16/README.md)       |
 
 ---
 
