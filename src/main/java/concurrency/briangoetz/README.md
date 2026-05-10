@@ -21,7 +21,7 @@ Below is the master structure of the notes. Each link leads to a detailed `READM
 | **04**  | **Composing Objects**                          | ✅      | [View Notes](part1/chapter04/README.md) |
 | **05**  | **Building Blocks**                            | ✅      | [View Notes](part1/chapter05/README.md) |
 |         | ***Summary I: Fundamentals of Thread Safety*** | ✅      | [View summary](part1/README.md)         |
-| **06**  | **Task Execution**                             | ⏳      | [View Notes](chapter06/README.md)       |
+| **06**  | **Task Execution**                             | ✅      | [View Notes](chapter06/README.md)       |
 | **07**  | **Cancellation & Shutdown**                    | ⏳      | [View Notes](chapter07/README.md)       |
 | **08**  | **Applying Thread Pools**                      | ⏳      | [View Notes](chapter08/README.md)       |
 | **10**  | **Avoiding Liveness Hazards**                  | ⏳      | [View Notes](chapter10/README.md)       |
