@@ -26,12 +26,12 @@ Below is the master structure of the notes. Each link leads to a detailed `READM
 | **08**  | **Applying Thread Pools**                             | ✅      | [View Notes](part2/chapter08/README.md) |
 | **09**  | **GUI Applications**                                  | ✅      | [View Notes](part2/chapter09/README.md) |
 |         | ***Summary II: Structuring Concurrent Applications*** | ✅      | [View summary](part2/README.md)         |
-| **10**  | **Avoiding Liveness Hazards**                         | ⏳      | [View Notes](part3/chapter10/README.md) |
-| **11**  | **Performance & Scalability**                         | ⏳      | [View Notes](part3/chapter11/README.md) |
-| **12**  | **Testing Concurrent Programs**                       | ⏳      | [View Notes](part3/chapter12/README.md) |
-|         | ***Summary III: Liveness, Performance, and Testing*** | ⏳      | [View summary](part3/README.md)         |
-| **13**  | **Explicit Locks**                                    | ⏳      | [View Notes](part4/chapter13/README.md) |
-| **14**  | **Building Custom Synchronizers**                     | ⏳      | [View Notes](part4/chapter14/README.md) |
+| **10**  | **Avoiding Liveness Hazards**                         | ✅      | [View Notes](part3/chapter10/README.md) |
+| **11**  | **Performance & Scalability**                         | ✅      | [View Notes](part3/chapter11/README.md) |
+| **12**  | **Testing Concurrent Programs**                       | ✅      | [View Notes](part3/chapter12/README.md) |
+|         | ***Summary III: Liveness, Performance, and Testing*** | ✅      | [View summary](part3/README.md)         |
+| **13**  | **Explicit Locks**                                    | ✅      | [View Notes](part4/chapter13/README.md) |
+| **14**  | **Building Custom Synchronizers**                     | ✅      | [View Notes](part4/chapter14/README.md) |
 | **15**  | **Atomic Variables & Nonblocking**                    | ⏳      | [View Notes](part4/chapter15/README.md) |
 | **16**  | **The Java Memory Model**                             | ⏳      | [View Notes](part4/chapter16/README.md) |
 |         | ***Summary IV: Advanced Topics***                     | ⏳      | [View summary](part4/README.md)         |
