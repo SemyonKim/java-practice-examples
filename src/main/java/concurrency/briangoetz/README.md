@@ -32,9 +32,9 @@ Below is the master structure of the notes. Each link leads to a detailed `READM
 |         | ***Summary III: Liveness, Performance, and Testing*** | ✅      | [View summary](part3/README.md)         |
 | **13**  | **Explicit Locks**                                    | ✅      | [View Notes](part4/chapter13/README.md) |
 | **14**  | **Building Custom Synchronizers**                     | ✅      | [View Notes](part4/chapter14/README.md) |
-| **15**  | **Atomic Variables & Nonblocking**                    | ⏳      | [View Notes](part4/chapter15/README.md) |
-| **16**  | **The Java Memory Model**                             | ⏳      | [View Notes](part4/chapter16/README.md) |
-|         | ***Summary IV: Advanced Topics***                     | ⏳      | [View summary](part4/README.md)         |
+| **15**  | **Atomic Variables & Nonblocking**                    | ✅      | [View Notes](part4/chapter15/README.md) |
+| **16**  | **The Java Memory Model**                             | ✅      | [View Notes](part4/chapter16/README.md) |
+|         | ***Summary IV: Advanced Topics***                     | ✅      | [View summary](part4/README.md)         |
 
 ---
 
