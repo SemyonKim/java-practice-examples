@@ -79,12 +79,12 @@ flowchart LR
     S3 --> S4[Step 4: Implement Logic]
 
     subgraph Configuration
-    S1 -.->|@EnableAspectJAutoProxy| C1(Configuration Class)
+    S1 -.->|"@EnableAspectJAutoProxy"| C1(Configuration Class)
     end
 
     subgraph Aspect Class
-    S2 -.->|@Aspect + @Bean| C2(Spring Context)
-    S3 -.->|@Around, @Before| C3(Advice Annotation)
+    S2 -.->|"@Aspect + @Bean"| C2(Spring Context)
+    S3 -.->|"@Around, @Before"| C3(Advice Annotation)
     S4 -.->|ProceedingJoinPoint| C4(Aspect Logic)
     end
 ```
@@ -171,11 +171,11 @@ A modern, robust alternative to complex expressions is defining a custom annotat
 
 ```mermaid
 flowchart TD
-    A[Define Custom Annotation] -->|@Retention RUNTIME| B("@ToLog")
+    A[Define Custom Annotation] -->|"@Retention RUNTIME"| B("@ToLog")
     B --> C[Annotate Target Method]
-    C -->|@ToLog publishComment| D(CommentService)
+    C -->|"@ToLog publishComment"| D(CommentService)
     D --> E[Define Aspect Pointcut]
-    E -->|@Around @annotation ToLog| F(LoggingAspect)
+    E -->|"@Around @annotation ToLog"| F(LoggingAspect)
 ```
 **Critical Details:** 
 * By default, Java annotations cannot be intercepted at runtime; you must explicitly set the retention policy using `@Retention(RetentionPolicy.RUNTIME)`.
