@@ -112,6 +112,10 @@ Here is a growing index of examples with direct links:
   - [Effective Java by Joshua Bloch](src/main/java/puzzlers/effectivejava/README.md)
   - *(more examples coming soon)*
 
+- **Spring**
+  - [Spring Start Here by Laurentiu Spilca](src/main/java/spring/lspilcastarthere/README.md)
+  - *(more examples coming soon)*
+
 ---
 
 ## 🛠 Requirements
